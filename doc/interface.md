@@ -19,12 +19,15 @@ body         返回主体 除上面两个字段外 都在body中
 ### 请求参数
 
 username 用户名／建议手机号
+
 password 密码（加密）
 
 ### 返回参数
 
 uid 用户id
+
 username 用户名/手机号
+
 ...
 
 
@@ -37,7 +40,9 @@ username 用户名/手机号
 ### 请求参数
 
 username 用户名／手机号
+
 password 密码（加密）
+
 checkcode 验证码
 
 ### 返回参数
@@ -69,6 +74,7 @@ uid 用户id
 ### 请求参数
 
 uid 用户id
+
 checkcode 验证码
 
 ### 返回参数
@@ -85,6 +91,7 @@ checkcode 验证码
 ### 请求参数
 
 uid      用户id
+
 password 密码（加密）
 
 ### 返回参数
