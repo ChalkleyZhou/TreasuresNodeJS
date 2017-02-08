@@ -6,7 +6,10 @@ var store = require('../service/store');
 
 router.get('/', async function (ctx, next) {
     var rows = await store.getRouteList();
-    ctx.body = rows;
+    var route = JSON.parse(JSON.stringify(rows))[0];
+    console.log(route.lines);
+    route.lines = route.lines.split(',');
+    ctx.body = JSON.stringify(route);
 });
 
 module.exports = router;

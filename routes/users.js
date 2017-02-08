@@ -1,5 +1,4 @@
 import Router from 'koa-router';
-import mysql from 'mysql-co';
 var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 var router = Router();
