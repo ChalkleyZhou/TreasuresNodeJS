@@ -13,7 +13,7 @@ PUT: /address/{uid}
 
 DELETE: /address/{aid}
 
-
+接口返回成功与否通过Http Header中的 status来判断。
 
 # 用户接口
 
@@ -129,3 +129,4 @@ new_password 密码（加密）
 
 # 路线接口
 
+未完待续。。。
