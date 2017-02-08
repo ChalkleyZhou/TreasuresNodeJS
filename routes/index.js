@@ -7,8 +7,8 @@ var store = require('../service/store');
 router.get('/getRoute', async function (ctx, next) {
     var rows = await store.getRouteList();
     var route = JSON.parse(JSON.stringify(rows))[0];
-    console.log(route.lines);
     route.lines = route.lines.split(',');
+    consle.log(route);
     ctx.body = JSON.stringify(route)
 });
 

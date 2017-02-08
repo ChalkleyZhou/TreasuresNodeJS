@@ -31,6 +31,7 @@ id
 name
 age  年龄
 sex  性别
+phone 手机号
 route  当前路线
 location   当前所在点
 question   当前问题
