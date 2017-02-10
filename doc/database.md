@@ -28,6 +28,8 @@ to    终点
 
 id
 
+location_id  地点id
+
 category 分类
 
 type  类型
