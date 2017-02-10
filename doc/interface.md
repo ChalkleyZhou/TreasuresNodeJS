@@ -165,4 +165,48 @@ Object route 一条路线的对象
 
 # 地点接口
 
-未完。。。
+## 根据Id查找地点
+
+### 请求地址
+
+GET: /location/{lid}
+
+### 请求参数
+
+无
+
+### 返回参数
+
+Object location 一个地点的对象
+
+
+# 问题接口
+
+## 根据Id查找问题
+
+### 请求地址
+
+GET: /question/{qid}
+
+### 请求参数
+
+无
+
+### 返回参数
+
+Object question 一个问题的对象
+
+
+## 回答问题
+
+### 请求地址
+
+GET: /question/{qid}/answer
+
+### 请求参数
+
+answer 答案
+
+### 返回
+
+isRight  是否答对了
